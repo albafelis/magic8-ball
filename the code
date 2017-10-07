@@ -1,0 +1,116 @@
+fill(0, 0, 0);
+ ellipse(200, 200, 375, 375);
+ fill(60, 0, 255);
+ triangle(200, 104, 280, 280, 120, 280);
+ fill(255, 255, 255);
+   text("Ask the ball a question and then click the center",65, 98);
+mousePressed = function(){
+
+  var number = random(0, 19);
+  var integer = round(number);
+
+if (integer === 0) {
+    fill(86, 125, 245);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+    text("It is certain",172 ,249);}
+else if (integer ===1 ) {
+    fill(86, 125, 245);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+text("It is decidedly so",160 ,248);}
+else if (integer ===2 ) {
+    fill(86, 125, 245);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+text("Without a doubt",160 ,249);}
+else if (integer ===3 ) {
+    fill(86, 125, 245);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+text("Yes — definitely",159 ,250);}
+else if (integer ===4 ) {
+    fill(86, 125, 245);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+text("You may rely on it",156 ,250);}
+
+else if (integer ===5 ) {
+    fill(67, 145, 60);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+text("As I see it, yes",163 ,252);}
+else if (integer ===6 ) {
+    fill(67, 145, 60);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+text("Most likely",172 ,222);}
+else if (integer ===7 ) {
+    fill(67, 145, 60);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+text("Outlook good",168 ,244);}
+else if (integer ===8 ) {
+    fill(67, 145, 60);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+text("Signs point to yes ",154 ,246);}
+else if (integer ===9 ) {
+    fill(67, 145, 60);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+text("Yes",189 ,231);}
+
+else if (integer ===10 ) {
+    fill(250, 225, 97);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+text("Reply hazy, try again",145 ,258);}
+else if (integer ===11 ) {
+    fill(250, 225, 97);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+text("Ask again later",158 ,254);}
+else if (integer ===12 ) {
+    fill(250, 225, 97);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+text("Better not tell you now",143 ,255);}
+else if (integer ===13 ) {
+    fill(250, 225, 97);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+text("Cannot predict now",147 ,255);}
+else if (integer ===14 ) {
+    fill(250, 225, 97);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+text("Concentrate and",154 ,222);
+text(" ask again",169 ,239);
+}
+
+else if (integer ===15 ) {
+    fill(250, 97, 97);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+text("Don’t count on it",157 ,250);}
+else if (integer ===16 ) {
+    
+text("My reply is no",165 ,244);}
+else if (integer ===17 ) {
+    fill(250, 97, 97);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+text("My sources say no",149 ,255);}
+else if (integer ===18 ) {
+    fill(250, 97, 97);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+text("Outlook not so good",147 ,255);}
+else if (integer ===19 ) {
+    fill(250, 97, 97);
+    triangle(200, 104, 280, 280, 120, 280);
+    fill(0, 0, 0);
+text("Very doubtful",167 ,243);}
+};
+ 
